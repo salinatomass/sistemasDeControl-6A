@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comidas Favoritas</title>
+
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: fit-content;
+      }
+
+      table img {
+        width: 300px;
+        height: 180px;
+        object-fit: cover;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mis comidas favoritas</h1>
+
+    <table>
+      <tr>
+        <th>Comida</th>
+        <th>Origen</th>
+        <th>Imagen</th>
+      </tr>
+      <tr>
+        <td>Asado</td>
+        <td>Argentina</td>
+        <td><img src="../fotos/asado.jpg" alt="Asado" /></td>
+      </tr>
+      <tr>
+        <td>Pizza</td>
+        <td>Italiana</td>
+        <td><img src="../fotos/pizza.jpg" alt="Pizza" /></td>
+      </tr>
+      <tr>
+        <td>Pastas</td>
+        <td>Italina</td>
+        <td><img src="../fotos/pasta.jpg" alt="Pastas" /></td>
+      </tr>
+    </table>
+
+    <a href="../index.html">Atras</a>
+  </body>
+</html>
